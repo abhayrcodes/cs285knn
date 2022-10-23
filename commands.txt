@@ -1,0 +1,7 @@
+Here is the command to run the script after library installation is completed:
+
+python cs285/scripts/run_hw1.py --expert_policy_file cs285/policies/experts/Ant.pkl --env_name Ant-v4 --exp_name bc_ant --expert_data cs285/expert_data/expert_data_Ant-v4.pkl --video_log_freq -1 --k 3 --distance_type 1
+
+The two main parameters that are being tested for this program are 'k' and 'distance_type'. 'k' is the parameter that refers to the number of nearest neighbors considered in the labeling process. 'distance_type' is the parameter that refers to how the algorithm measures distance (L1 or L2).
+
+** Like the CS285 assignment, the environment can be changed.
