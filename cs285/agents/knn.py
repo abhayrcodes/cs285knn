@@ -20,7 +20,7 @@ class NeuralNetwork(nn.Module):
         hidden_layer_features = int(1.66*k)
         # inputs layer(s)
         self.input = nn.Linear(in_features=k, out_features=hidden_layer_features)
-        # 1 hidden layer
+        # 2 hidden layer
         self.layer_2 = nn.Linear(in_features=hidden_layer_features, out_features=hidden_layer_features)
         self.layer_3 = nn.Linear(in_features=hidden_layer_features, out_features=hidden_layer_features)
         # output layer(s)
